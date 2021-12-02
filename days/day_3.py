@@ -51,7 +51,6 @@ def part_2(input_string: str) -> int:
     }
     current_position_santa = (0, 0)
     current_position_robot = (0, 0)
-    current_position = (0, 0)
 
     for idx, direction in enumerate(input_string):
         step = (0, 0)
@@ -82,7 +81,7 @@ def part_2(input_string: str) -> int:
 def day_3(selected_part: int = None, test: bool = False):
     """ Needed to select which part of the 3rd day we want to execute
 
-    :param selected_part: selected Advent of Code part of the 1st day
+    :param selected_part: selected Advent of Code part of the 3rd day
     :param test: flag to use test input
     """
     directions = parse_single_line(3, is_test=test)
