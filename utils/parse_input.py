@@ -24,7 +24,7 @@ def parse_by_line(selected_day: int, int_list: bool = True, is_test: bool = Fals
             if int_list:
                 list_from_file = [int(line) for line in file.readlines()]
             else:
-                list_from_file = [line for line in file.readlines()]
+                list_from_file = [line.rstrip() for line in file.readlines()]
         return list_from_file
     else:
         raise IOError('There is no input file for day ' + str(selected_day))
