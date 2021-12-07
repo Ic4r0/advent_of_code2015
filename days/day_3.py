@@ -90,4 +90,4 @@ def day_3(selected_part: int = None, test: bool = False):
         print('The result of 1st part of the 3rd day of AoC is: ' + str(result_part_1))
     if selected_part == 2 or not selected_part:
         result_part_2 = part_2(directions)
-        print('The result of 1st part of the 3rd day of AoC is: ' + str(result_part_2))
+        print('The result of 2nd part of the 3rd day of AoC is: ' + str(result_part_2))

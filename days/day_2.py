@@ -55,4 +55,4 @@ def day_2(selected_part: int = None, test: bool = False):
         print('The result of 1st part of the 2nd day of AoC is: ' + str(result_part_1))
     if selected_part == 2 or not selected_part:
         result_part_2 = part_2(present_dimensions)
-        print('The result of 1st part of the 2nd day of AoC is: ' + str(result_part_2))
+        print('The result of 2nd part of the 2nd day of AoC is: ' + str(result_part_2))
