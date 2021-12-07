@@ -15,7 +15,7 @@ def part_1(input_list: list) -> int:
     """ Code for the 1st part of the 8th day of Advent of Code
 
     :param input_list: input list
-    :return: numeric resulta
+    :return: numeric result
     """
     code_strings_length = sum(len(elem) for elem in input_list)
     char_strings_length = 0
