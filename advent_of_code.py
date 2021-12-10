@@ -24,6 +24,7 @@ from days.day_8 import day_8
 from days.day_9 import day_9
 from days.day_10 import day_10
 from days.day_11 import day_11
+from days.day_12 import day_12
 
 
 # module
@@ -56,6 +57,8 @@ def save_xmas(selected_day: int, selected_part: int = None, is_test: bool = Fals
         day_10(selected_part, is_test)
     elif selected_day == 11:
         day_11(selected_part, is_test)
+    elif selected_day == 12:
+        day_12(selected_part, is_test)
     elif 0 < selected_day < 26:
         print('No available solution for the selected day')
     else:
