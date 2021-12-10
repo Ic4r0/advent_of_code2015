@@ -2,7 +2,7 @@
 
 Author: Ic4r0 - https://github.com/Ic4r0
 
-Created: 12th December 2021
+Created: 10th December 2021
 """
 
 # imports
@@ -16,7 +16,7 @@ def part_1(input_string: str) -> int:
     """ Code for the 1st part of the 12th day of Advent of Code
 
     :param input_string: input string
-    :return: string result
+    :return: numeric result
     """
     matched_numbers = findall(r'-?[0-9]+', input_string)
     if matched_numbers:
@@ -28,7 +28,7 @@ def part_2(input_string: str) -> int:
     """ Code for the 2nd part of the 12th day of Advent of Code
 
     :param input_string: input string
-    :return: string result
+    :return: numeric result
     """
     new_input_string = str(json.loads(
         input_string,
